@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -22,7 +22,7 @@ namespace PracticTaskIndividual
             }
             Console.WriteLine(string.Join(Environment.NewLine, list));
         }
-        public static void deletenumbers()
+        public static List<int> deletenumbers(List<int>list)
         {
             int start = 25;
             int end = 50;
@@ -34,15 +34,28 @@ namespace PracticTaskIndividual
                     list.Add((int)i);
                     if(list.Count== 100)
                     {
-                    list.RemoveRange(start, end);
+                        for(int i2 = 0; i2 < list.Count;i2++)
+                        {
+                            if (list[i2]>25 || list[i2]<50)
+                            {
+                                list.Remove(i2);
+                            }
+                        }
                     }
                 }
             }
             else
             {
-                list.RemoveRange(start, end);
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (list[i] > 25 || list[i] < 50)
+                    {
+                        list.Remove(i);
+                    }
+                }
+                
             }
-            Console.WriteLine(string.Join(Environment.NewLine, list));
+           return list;
         }
         public static void showlist()
         {
@@ -77,7 +90,7 @@ namespace PracticTaskIndividual
                 }
                 else if(num == "2")
                 {
-                    deletenumbers();
+                    deletenumbers(list);
                 }
                 else if (num == "3")
                 {
