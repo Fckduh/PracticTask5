@@ -1,0 +1,8 @@
+D:\Repos\PracitcTask5.4\bin\Debug\PracitcTask5.4.exe.config
+D:\Repos\PracitcTask5.4\bin\Debug\PracitcTask5.4.exe
+D:\Repos\PracitcTask5.4\bin\Debug\PracitcTask5.4.pdb
+D:\Repos\PracitcTask5.4\obj\Debug\PracitcTask5.4.csproj.AssemblyReference.cache
+D:\Repos\PracitcTask5.4\obj\Debug\PracitcTask5.4.csproj.SuggestedBindingRedirects.cache
+D:\Repos\PracitcTask5.4\obj\Debug\PracitcTask5.4.csproj.CoreCompileInputs.cache
+D:\Repos\PracitcTask5.4\obj\Debug\PracitcTask5.4.exe
+D:\Repos\PracitcTask5.4\obj\Debug\PracitcTask5.4.pdb
