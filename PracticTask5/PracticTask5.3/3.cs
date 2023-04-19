@@ -26,8 +26,6 @@ namespace PracticTask5._3
                 if (repeats.Contains(num))
                 {
                     Console.WriteLine("Такое число уже существует");
-                    Console.ReadKey();
-                    break;
                 }
                 else
                     Console.WriteLine("Число успешно добавлено");
